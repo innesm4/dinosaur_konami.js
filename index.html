@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="author" content="Mark Innes">
+
+  <title>
+    dinosaur_konami.js - Finally a Konami Code Plugin I can use
+  </title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+  
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/dinosaur.css">
+    <!--<![endif]-->
+  
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+</head>
+<body class="dinosaur">
+
+
+
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Dinosaur Konami JS</a>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Dinosaur Konami JS</h1>
+        <p class="splash-subhead">
+            Finally a Konami Code Plugin I can use
+        </p>
+        <p>
+            <a href="https://github.com/innesm4/dinosaur_konami.js" class="pure-button pure-button-primary">Get Started</a>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">Instructions</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
+
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-rocket"></i>
+                    Key in the Konami Code
+                </h3>
+                <p class="is-center">
+                    UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-rocket"></i>
+                    MOVE THE DINOSAUR AROUND
+                </h3>
+                <p class="is-center">
+                    UP DOWN LEFT RIGHT
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer l-box is-center">
+        Made with love?? by a Dinosaur supporter
+    </div>
+
+</div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="dinosaur_konami.js"></script> 
+    <script>
+
+	var Dinosaur = {
+	    init: function() {
+
+	        $('body').dinosaur_konami();
+	    
+	    }
+	};
+
+	Dinosaur.init();
+    </script>
+  </body>
+</html>
